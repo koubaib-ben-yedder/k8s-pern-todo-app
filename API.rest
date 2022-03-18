@@ -1,0 +1,20 @@
+POST http://localhost:4000/new
+Content-Type: application/json
+
+{
+    "desc": "New"
+}
+###
+GET http://localhost:4000/all
+###
+GET http://localhost:4000/todo/2
+###
+DELETE  http://localhost:4000/delete/5
+###
+PUT http://localhost:4000/update/3
+Content-Type: application/json
+
+{
+    "desc": "server code is completed!"
+}
+###

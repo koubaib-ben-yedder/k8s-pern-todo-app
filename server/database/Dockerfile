@@ -1,0 +1,6 @@
+FROM postgres
+ENV POSTGRES_PASSWORD aakashjha
+ENV POSTGRES_USER	postgres
+ENV POSTGRES_HOST_AUTH_METHOD	localhost
+ENV POSTGRES_DB perntodo
+COPY . .
